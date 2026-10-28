@@ -1,11 +1,11 @@
 # Exercise 3: List Comprehension, Functions, IO
 
-Deadline: 05.11.2025 23:59 
+Deadline: 04.11.2026 23:59 
 
 This is the third exercise, and it verifies that you're able to apply list comprehension, implement a function and read in from/write out to files.
 
 ## Step 1
-Clone this repository to your local computer. On the command line, you would use the following command: `git clone https://github.com/Deep-Learning-UE-WS2526/exercise-03`.
+Clone this repository to your local computer. On the command line, you would use the following command: `git clone https://github.com/Deep-Learning-UE-WS2627/exercise-03`.
 
 ## Step 2
 Create a new branch in the repository, named after your UzK-account: `git checkout -b "UZKACCOUNT"`
