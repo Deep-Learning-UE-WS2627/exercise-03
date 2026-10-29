@@ -1,5 +1,5 @@
 # jeder Buchstabe aus dem Wort "word" als Liste mit For-Schleife
-l = []
+l = [] #
 for buchstabe in "word":
     l.append(buchstabe) 
 print(l)
