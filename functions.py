@@ -32,5 +32,5 @@ def func3(**kwargs):
     return func1(kwargs["a"], kwargs["b"])
   return func2(*kwargs.values())
 
-print(func3(a = 2, b = 4, c = 1))
-print(func3(a = "hello", c = "girl"))
+func3(a = 2, b = 4, c = 1)
+func3(a = "hello", c = "girl")
