@@ -14,3 +14,39 @@ func1("Welt", "Hallo")
 func1(None, None)
 func1(11, "Freunde")
 func1(5.4, 3.6)
+
+
+def func2(*args):
+    if len(args) < 2:
+        return str(len(args))
+    if len(args) == 2:
+        return func1(*args)       
+    if len(args) > 2:
+        return int(len(args))        
+        
+        
+        
+        
+# print(func2(5))
+# print(func2(5, 7))
+# print(func2(5, 7, 9))      
+
+# print(type(func2(5)))
+# print(type(func2(5, 7)))
+# print(type(func2(5, 7, 9)))
+
+
+
+def func3(**kwargs):
+    if "a" in kwargs and "b" in kwargs:
+        return func1(kwargs["a"], kwargs["b"]) 
+    else: 
+        return func2(*kwargs)  
+        
+        
+        
+        
+        
+# print(func3(a=5, b=7))
+# print(func3(x=5, y=7))
+# print(func3(x=5, y=7, z=9))        
