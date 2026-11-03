@@ -14,3 +14,32 @@ func1("Welt", "Hallo")
 func1(None, None)
 func1(11, "Freunde")
 func1(5.4, 3.6)
+
+
+def func2(*args):
+  n = len(args)
+  if n < 2:
+    return str(n)
+  elif n==2:
+    return func1(args[0], args[1])
+  else:
+   return n
+  
+  
+print(func2())
+print(func2(10))
+print(func2(1,2))
+print(func2(1,2,3))
+
+
+def func3(**kwargs):
+  if 'a' in kwargs and 'b' in kwargs:
+    return func1(kwargs['a'], kwargs['b'])
+  else:
+    return func2(*kwargs.keys())
+  
+  
+print(func3(a=1, b=2))
+print(func3(x=5, y=6))
+print(func3(a=1, c=3, d=4))
+print(func3())
