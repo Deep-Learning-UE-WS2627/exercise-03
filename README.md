@@ -14,7 +14,7 @@ Create a new branch in the repository, named after your UzK-account: `git checko
 In the file `listcomprehension.py`, you find two pre-defined lists `x` and `y`.
 Use list comprehension to define the following new lists:
 
-- A list called `a` that contains all elements of `x`, multiplied by 2.
+- A list called `a` that contains all elements of `x`, multiplied by 2. 
 - A list called `b` that contains all even elements of `x`.
 - A list called `c` that contains all truish elements of `y` (i.e., all elements that evaluate to `True` in a boolean context)
 - A list called `d` that contains all string elements of `y`
@@ -33,3 +33,4 @@ If you haven't figured it out by now: These functions don't make sense, they are
 
 ## Step 5: Commit
 Commit your changes to your local repository and push them to the server.
+ 
