@@ -14,7 +14,7 @@ Create a new branch in the repository, named after your UzK-account: `git checko
 In the file `listcomprehension.py`, you find two pre-defined lists `x` and `y`.
 Use list comprehension to define the following new lists:
 
-- A list called `a` that contains all elements of `x`, multiplied by 2. 
+- A list called `a` that contains all elements of `x`, multiplied by 2.
 - A list called `b` that contains all even elements of `x`.
 - A list called `c` that contains all truish elements of `y` (i.e., all elements that evaluate to `True` in a boolean context)
 - A list called `d` that contains all string elements of `y`
@@ -26,7 +26,7 @@ The file `functions.py` contains a function `func1` that takes two arguments and
 
 Write a function `func2` that takes an arbitrary number of arguments. In the function, check the number of arguments. If there are less than two arguments, return a string with the number of arguments. If there are two arguments, pass them to `func1`. If there are more than two arguments, return the number of arguments as an int value. 
 
-Next, write a function `func3` that takes an arbitrary number of named arguments. Check that two of these arguments have the names `a` and `b`. If so, pass them into `func1`. If not, pass all names of the arguments into `func2`.
+Next, write a function `func3` that takes an arbitrary number of named arguments. Check that two of these arguments have the names `a` and `b`. If so, pass them into `func1`. If not, pass all names of the arguments into `func2`.                                      
 
 If you haven't figured it out by now: These functions don't make sense, they are just exercise material.
 
